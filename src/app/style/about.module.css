@@ -1,0 +1,38 @@
+
+.aboutSection {
+    padding: 80px 20px;
+    background: linear-gradient(to right, #000, #333);
+    color: #d1d1d1;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .aboutContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .aboutTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+  }
+  
+  .aboutDescription {
+    font-size: 1.1rem;
+    color: #c4c4c4;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .aboutTitle {
+      font-size: 2rem;
+    }
+  
+    .aboutDescription {
+      font-size: 1rem;
+    }
+  }
+  

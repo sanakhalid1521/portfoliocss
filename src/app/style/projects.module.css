@@ -1,0 +1,90 @@
+.projectsSection {
+  padding: 2rem;
+  background: linear-gradient(to right, black, #2d2d2d);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.titleWrapper {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: #e0e0e0;
+}
+
+.description {
+  color: #e0e0e0;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.projectGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.projectCard {
+  position: relative;
+  width: calc(33.333% - 1rem);
+  padding-top: 56.25%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.image {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.85);
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  transition: opacity 0.3s ease;
+}
+
+.projectCard:hover .overlay {
+  opacity: 1;
+}
+
+.projectTitle {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.projectDescription {
+  font-size: 0.875rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.link {
+  color: #4f46e5;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.link:hover {
+  border-color: #4f46e5;
+}

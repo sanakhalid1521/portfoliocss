@@ -1,0 +1,55 @@
+
+.footer {
+    background-color: #2d2d2d; /* Equivalent to bg-gray-800 */
+    color: #d1d1d1; /* Equivalent to text-gray-200 */
+    padding: 2rem 0;
+  }
+  
+  .footerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footerLogo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footerLogoText {
+    margin-left: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  .footerCopyright {
+    font-size: 0.875rem;
+    color: #a0a0a0; /* Equivalent to text-gray-500 */
+    margin-top: 1rem;
+  }
+  
+  .footerSocialLinks {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+  
+  .footerSocialLink {
+    color: #1e3a8a; /* Equivalent to text-blue-900 */
+    margin-left: 1rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footerSocialLink:hover {
+    color: #6366f1; /* Equivalent to hover:text-indigo-500 */
+  }
+  
+  .footerSocialLink svg {
+    font-size: 2.5rem;
+  }
+  
